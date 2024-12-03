@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+}
+main .top{
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    
+}
+
+nav{
+    display: flex;
+    background-color: rgb(55, 55, 236);
+    text-align: center;
+    height: 30px;
+    justify-content: center;
+    
+}
+nav a{
+    color: white;
+    margin: 5px;
+    align-items: center;
+    text-decoration: none;
+}
+nav a:hover{
+    color: lightslategray;
+}
+
+
+.our{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.title{
+    text-align: center;
+    margin: 10px auto;
+    
+    
+}
+.SR1, .SR2, .SR3{
+    background-color: rgb(251, 251, 252);
+    border: 1px solid rgb(55, 55, 236) ;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    margin-bottom:20px ;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+
+  
+}
+.SR1:hover,  .SR2:hover,  .SR3:hover {
+    transform: translateY(-10px);
+}
+button{
+    background-color:rgb(55, 55, 236); 
+    border-radius: 2px;
+    height: 30px;
+    color: white;
+}
+button:hover {
+    background-color: #e68a00;
+}
+
